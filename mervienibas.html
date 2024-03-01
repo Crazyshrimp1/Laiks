@@ -7,9 +7,9 @@
     </head>
     <body>
         <form>
-            <div><input type="text" id="gb" name="merv">GB=</div>
-            <div><input type="button"><input type="text" id="mb" name="merv"></div>
-            <div><button><input type="text" id="Mib" name="merv"></div>
-        </form>
+            <p><input type="text" id="gb" name="gb">GB=</p>
+            <p><input type="button" value="Izteikt megabaitos" onclick="rez.value=gb.value*1000"><span style="width:80px"><input type="text" id="mb" name="rez"></span>MB</p>
+            <p><input type="button" value="Izteikt mibibaitos" onclick="rez2.value=gb.value*953.674316"><input type="text" id="Mib" name="rez2">MiB</p> 
+    </form>
     </body>
 </html>

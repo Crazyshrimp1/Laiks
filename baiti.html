@@ -8,12 +8,12 @@
     <body>
        <p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
        <form>
-           <p><input type='text' id='sec' name ="k" onmouseover='reset(document.getElementById.sec);resetForm(document.getElementById.atb)'>sekundēs, ja interneta ātrums ir 25 Mbps</p> 
-       </form>
+           <p><input type='text' id='sec' name ="k" onmouseover='reset(document.getElementById.sec)' onmouseover='reset(document.getElementById.atb)'>sekundēs, ja interneta ātrums ir 25 Mbps</p> 
+       
       <p>Atbilde</p>
-        <form>
+    
             <p><input type='text' id='atb'>
-                <input type='radio' value='Kib' name='k' onclick="atb.value=sec.value*122.07031*25">
+                <input type='radio' value='Kib' name='k' onclick="atb.value=sec.value*122.07031*25">    
                 <label for='Kib'>Kib</label>
                 <input type='radio' value='KB' name='k' onclick="atb.value=sec.value*125*25">
                 <label for='KB'>KB</label>

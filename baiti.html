@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baiti</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+       <form>
+           <p><input type='text' id='sec' name ="k" onmouseover='reset(document.getElementById.sec);resetForm(document.getElementById.atb)'>sekundēs, ja interneta ātrums ir 25 Mbps</p> 
+       </form>
+      <p>Atbilde</p>
+        <form>
+            <p><input type='text' id='atb'>
+                <input type='radio' value='Kib' name='k' onclick="atb.value=sec.value*122.07031*25">
+                <label for='Kib'>Kib</label>
+                <input type='radio' value='KB' name='k' onclick="atb.value=sec.value*125*25">
+                <label for='KB'>KB</label>
+            </p> 
+        </form>
+      
+    </body>
+</html>
